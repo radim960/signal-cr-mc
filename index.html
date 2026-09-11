@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL CR MC</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#101214;color:#f2f2f2}
+header{background:#171a1d;border-bottom:4px solid #e30613;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.logo{font-size:25px;font-weight:800}.logo span{color:#e30613}
+nav a{color:white;text-decoration:none;margin-left:20px;font-weight:bold}nav a:hover{color:#e30613}
+.hero{min-height:520px;padding:110px 8%;display:flex;align-items:center;background:linear-gradient(#0008,#0008),url("images/hero.jpg") center/cover}
+.hero h1{font-size:clamp(45px,8vw,90px);margin:0}.hero p{font-size:22px;max-width:650px}
+.btn{display:inline-block;background:#e30613;color:white;padding:14px 22px;border-radius:6px;text-decoration:none;font-weight:bold;margin-top:10px}
+section{padding:65px 8%;max-width:1200px;margin:auto}h2{font-size:36px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#1b1f22;border:1px solid #34393d;border-radius:10px;padding:25px}.card h3{margin-top:0}
+.ip{font-size:24px;background:#090a0b;padding:18px;border-left:5px solid #e30613;display:inline-block}
+footer{text-align:center;padding:30px;background:#171a1d;color:#aaa}
+@media(max-width:700px){header{display:block}nav{margin-top:15px}nav a{margin:0 12px 0 0}.hero{padding-top:80px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">SIGNAL <span>CR MC</span></div>
+<nav>
+<a href="#domu">Domů</a><a href="#server">Server</a><a href="#pravidla">Pravidla</a><a href="#novinky">Novinky</a>
+</nav>
+</header>
+
+<main>
+<div class="hero" id="domu">
+<div>
+<h1>SIGNAL CR MC</h1>
+<p>Český Minecraft server zaměřený na železnici, návěstidla, přejezdy a pořádnou železniční atmosféru.</p>
+<a class="btn" href="#server">Připojit se</a>
+</div>
+</div>
+
+<section id="server">
+<h2>🚂 Server</h2>
+<div class="cards">
+<div class="card"><h3>🎮 IP serveru</h3><div class="ip">DOPLŇ-IP-SERVERU</div><p>IP změň přímo v souboru index.html.</p></div>
+<div class="card"><h3>🛤️ Železnice</h3><p>Stavby tratí, stanice, přejezdy, návěstidla a železniční provoz.</p></div>
+<div class="card"><h3>🇨🇿 Český styl</h3><p>Inspirace českou železnicí a českou železniční technikou.</p></div>
+</div>
+</section>
+
+<section id="pravidla">
+<h2>📜 Pravidla</h2>
+<div class="card">
+<p>1. Chovej se slušně k ostatním hráčům.</p>
+<p>2. Nenič cizí stavby.</p>
+<p>3. Nepoužívej cheaty ani nepovolené výhody.</p>
+<p>4. Respektuj tým serveru.</p>
+<p>5. Hraj fér a užij si železnici!</p>
+</div>
+</section>
+
+<section id="novinky">
+<h2>📢 Novinky</h2>
+<div class="cards">
+<div class="card"><h3>Nový server</h3><p>Vítej na SIGNAL CR MC! Tuto sekci můžeš později používat pro novinky.</p></div>
+<div class="card"><h3>Nová trať</h3><p>Sem můžeš napsat informace o nové trati, stanici nebo přejezdu.</p></div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 SIGNAL CR MC • Minecraft server</footer>
+</body>
+</html>
