@@ -86,6 +86,17 @@ footer{text-align:center;padding:30px;background:#171a1d;color:#aaa}
 }
 </style>
 
+<button class="btn" onclick="copyIP()">
+    📋 Kopírovat IP
+</button>
+
+<script>
+function copyIP() {
+    navigator.clipboard.writeText("TVE-IP-SERVERU");
+    alert("IP serveru byla zkopírována!");
+}
+</script>
+
 <section id="server">
 <h2>🚂 Server</h2>
 <div class="cards">
